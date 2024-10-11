@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to right,#020024,#23234e,#00d4ff);
+    margin-top: 150px !important;
+}
+.register-left{
+    text-align:center;
+    color: #fff;
+}
