@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background: linear-gradient(to right, #22c1c3,#fdbb2d);
+}
+.header{
+    height: 100%;
+    font-family: sans-serif;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 90px;
+    font-style: bold;
+}
+.search-field{
+    height: 40px;
+    padding: 10px;
+}
+.skills{
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.locations{
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.search-btn{
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #22c1c3;
+    color: #fff;
+}
+.search-btn:hover{
+    background-color: #fdbb2d;
+}
+.form-box{
+    background: rgba(255,255,255,0.5);
+    padding: 40px;
+    height: 120px;
+    border: none;
+    border-radius: 8px;
+}
