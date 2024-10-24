@@ -15,7 +15,10 @@ body{
     background-color: #f4f4f4;
 }
 .profileCard{
-    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
     width: 100%;
     background: #fff;
     /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
@@ -39,4 +42,35 @@ body{
     border: 3px solid blanchedalmond;
     border-radius: 50%;
 
+}
+.profileCard .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500px;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 200px;
+}
+.profileCard .media-buttons{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.media-buttons .link{
+    margin: 0 8px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    text-decoration: none;
+    
 }
